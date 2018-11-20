@@ -1,0 +1,8 @@
+import = [
+{
+table = "xsc-iot.data::sensors.temp";
+schema = "IOT";
+file = "xsc-iot.data:temp.csv";
+header = true;
+} 
+];

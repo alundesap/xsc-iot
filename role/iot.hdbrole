@@ -1,0 +1,4 @@
+role xsc-iot.role::iot
+{
+catalog schema "IOT": SELECT, UPDATE, DELETE, INSERT, EXECUTE;
+}

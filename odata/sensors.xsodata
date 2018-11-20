@@ -1,0 +1,6 @@
+service namespace "xsc-iot.odata"{
+    "IOT"."xsc-iot.data::sensors.temp" as "temp" 
+        create using "xsc-iot.data:tempCreate.xsjslib::tempCreate" 
+    ;
+    
+}
